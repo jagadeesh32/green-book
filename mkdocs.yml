@@ -1,0 +1,71 @@
+site_name: Green Book 
+theme:
+  name: material
+  font:
+    code: Roboto Mono
+  features:
+    - header.autohide
+    - navigation.tracking
+    # - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    # - toc.integrate # here you need left table of contexts or not 
+  language: en
+  direction: ltr
+  logo: assets/book-logo.png
+  favicon: images/book-logo.png
+  icon:
+    repo: fontawesome/brands/github
+  plugins:
+    - search:
+      lang: en
+      separator: '[\s\-\.]+'
+      prebuild_index: true
+    - tags
+    #- git-revision-date
+    #- git-revision-date-localized:
+    #  type: date
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: teal
+      accent: red
+
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: teal
+      accent: yellow
+  markdown_extensions:
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+    - toc:
+      permalink: ⚓︎
+      # toc_depth: 3
+      slugify: !!python/name:pymdownx.slugs.uslugify
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
+extra:
+  #social:
+  #  - icon: fontawesome/brands/twitter
+  #    link: https://twitter.com/jagadeesh_katla
+  #    name: Jagadeesh katla on Twitter
+  generator: false
+  # disqus: jagadeeshkatla-1
+# copyright: Copyright &copy; 2016 - 2020 Martin Donath
+#repo_url: https://github.com/jagadeesh32/green-book-docs
+repo_name: jagadeesh32/green-book
