@@ -1,4 +1,15 @@
 site_name: Green Book 
+site_description: My personal digital resource
+site_author: Jagadeesh katla
+site_url: https://jagadeesh32.github.io/
+nav:
+  - Introduction: index.md
+  - Project Management: project-management/index.md
+  - Python:
+    - Basics: python/basics.md
+    - Flask:
+      - Basics: python/flask/basics.md
+  - Contact: contact.md
 theme:
   name: material
   font:
