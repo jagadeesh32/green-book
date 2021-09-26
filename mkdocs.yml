@@ -1,14 +1,48 @@
-site_name: Green Book 
+site_name: The Green Book 
 site_description: My personal digital resource
 site_author: Jagadeesh katla
 site_url: https://jagadeesh32.github.io/
 nav:
   - Introduction: index.md
-  - Project Management: project-management/index.md
   - Python:
     - Basics: python/basics.md
-    - Flask:
-      - Basics: python/flask/basics.md
+    - Data Types: python/data-types.md
+    - Loops and Conditions: python/loops-conditions.md
+    - Functions: python/functions.md
+    - Classes: python/classes.md
+    - Oop Methodology: python/oop.md
+    - Decorators: python/decorators.md
+    - Connect Databases: python/databases.md
+    - Use Cases: python/use-cases.md
+    - Call C Functions: python/call-c-functions.md
+    - Call Cpp Modules: python/call-cpp-modules.md
+    - Call Rust Modules: python/call-rust-modules.md
+  - Project Architecture:
+    - Introduction: project-architecture/basics.md
+    - Domain Driven Design: project-architecture/ddd.md
+    - Project Layers: project-architecture/layers.md
+    - Folder Structure: project-architecture/folder-structure.md
+  - Flask:
+    - Basics: flask/basics.md
+    - Requests and Responses: flask/requests-response.md
+    - Routers and Blueprints: flask/routes-blueprints.md
+    - ORM with Sqlalchemy: flask/orm-sqlalchemy.md
+  - Project Management:
+    - Introduction: project-management/basics.md
+    - Project Problem: project-management/problem.md
+    - Outcome Solution: project-management/solution.md
+    - Requirements: project-management/requirements.md
+    - Project Roles: project-management/roles.md
+    - Project Design: project-management/design.md
+    - Cost Estimates: project-management/cost.md
+    - Project Plan: project-management/planning.md
+    - Project Scope: project-management/scope.md
+    - Assign Tasks: project-management/tasks.md
+    - Team Management: project-management/team.md
+    - Project Review: project-management/review.md
+    - Project Reports: project-management/reports.md
+  - Cloud Computing:
+    - Basics: cloud-computing/basics.md
   - Contact: contact.md
 theme:
   name: material
