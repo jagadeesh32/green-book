@@ -11,7 +11,7 @@ tags:
 
 # Python
 
-python docx
+python basics
 
 ## Commands
 
