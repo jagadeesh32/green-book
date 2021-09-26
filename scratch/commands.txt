@@ -1,0 +1,5 @@
+poetry export -f requirements.txt --output requirements.txt --without-hashes
+mkdocs gh-deploy --force
+Your documentation should shortly appear at <username>.gitlab.io/<repository>.
+mkdocs gh-deploy --force
+mkdocs gh-deploy --force
